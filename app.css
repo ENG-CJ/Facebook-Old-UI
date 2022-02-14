@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f4f4;
+}
+
+.create-container{
+    margin-top: 20px;
+}
+
+.area-posts{
+    margin-bottom: 30px;
+}
+.spons-container{
+    margin-top: 20px;
+    position: sticky;
+    top: 80px;
+}
+.counters-card{
+    display: flex;
+}
+
