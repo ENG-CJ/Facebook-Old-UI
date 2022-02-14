@@ -1,0 +1,36 @@
+.likes-area.likes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6px;
+}
+.likes-area .like{
+    margin: 6px 0px;
+    display: flex;
+    align-items: center;
+}
+.like i{
+    margin-right: 10px;
+    font-size: 19px;
+    color: #6c3fff;
+}
+.grid span{
+    font-size: 17px;
+}
+.grid .fa-message{
+    color: #b1a9a9;
+}
+.like h6{
+   font-size: 17px;
+   font-family: sans-serif;
+   color: #757;
+}
+.comment h6,span{
+    margin-right: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.comment span{
+    font-family: poppins;
+    color: #757;
+}

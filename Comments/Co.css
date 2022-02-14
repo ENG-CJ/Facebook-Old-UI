@@ -1,0 +1,37 @@
+.comments{
+    margin: 9px 0px;
+    display: flex;
+    align-items: center;
+}
+.user-comment{
+    display: flex;
+    align-items: center;
+   
+}
+.user-comment{
+    margin-left: 20px;
+    background-color: #f5f0f0dc;
+    padding: 6px;
+    border-radius: 20px;
+    
+}
+.user-comment p{
+    margin-left: 10px;
+}
+.user-comment strong{
+    font-family: sans-serif;
+}
+.comment-area{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.comment-area .like-comment{
+   
+    margin-left: 10%;
+    margin-top: 6px;
+}
+.comment-area .like-comment h6{
+    font-family: sans-serif;
+    color: #6c3fff;
+}

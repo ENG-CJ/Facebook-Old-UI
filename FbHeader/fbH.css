@@ -1,0 +1,108 @@
+.container{
+    background-color: #555c99;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 300;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+}
+.search-bar i{
+    margin-right: 20px;
+    font-size: 32px;
+    color: #003e53;
+    padding: 9px 9px 2px 14px;
+    background-color: #fff;
+    border-radius: 3px;
+   
+}
+.search-bar input{
+    width: 320px;
+    padding: 2px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: poppins;
+    border-radius: 40px;
+    padding: 5px 20px;
+}
+
+.user-log{
+    display: flex;
+    align-items: center;
+}
+.img{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.img .name{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+.img img{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.name h6{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+}
+.home h6{
+    font-size: 16px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+.home .home-user{
+    margin-left: 30px;
+}
+.home-user i{
+    font-size: 19px;
+   
+}
+.home-user, .name, .home:hover{
+    cursor: pointer;
+}
+.notify{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    position: relative;
+}
+.notify i{
+    color: #fff;
+    font-size: 20px;
+}
+.mess span{
+    font-size: 9px;
+    font-family: poppins;
+    font-weight: bold;
+    background: rgb(196, 196, 228);
+    padding: 3px 7px;
+    border-radius: 50%;
+   
+}
+.mess{
+    position: absolute;
+    width: 60px;
+    left: 10px;
+    top: -10px;
+    right: 0;
+}

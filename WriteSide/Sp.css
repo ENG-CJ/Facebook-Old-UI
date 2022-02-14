@@ -1,0 +1,26 @@
+
+.spon-card{
+    background-color: #fff;
+    padding: 10px;
+    margin-right: -90px;
+    margin-bottom: 30px;
+    width: 300px;
+    max-width: 500px;
+}
+.spon-card h2, p{
+    margin-left: 20px;
+}
+.spons-container .spon-card .image-spon{
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+}
+.spon-card .image-spon img{
+    width: 260px;
+    transition: 0.6s ease-in-out;
+}
+
+.spon-card img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}

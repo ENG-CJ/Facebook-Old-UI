@@ -1,0 +1,43 @@
+.likes-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.likes-area .like, .comment-count{
+    margin: 6px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.like i{
+    margin-right: 10px;
+    margin-left: -15px;
+    z-index: 1;
+    
+}
+
+.like .fa-heart{
+    color: red;
+}
+.like h6{
+   font-size: 17px;
+   font-family: sans-serif;
+   color: #757;
+   
+}
+.like h6, i, .comment{
+    cursor: pointer;
+}
+.comment{
+    display: flex;
+}
+.comment-count h6,span{
+    margin-right: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.comment-count span{
+    font-family: poppins;
+    color: #757;
+}

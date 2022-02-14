@@ -1,0 +1,42 @@
+.create-header{
+    background-color: rgb(224, 223, 223);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.create-header i{
+    margin-right: 10px;
+    font-size: 21px;
+}
+.title h2{
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.body{
+    padding: 20px;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.user .text-area{
+    margin-left: 30px;
+    margin-top: 30px;
+    /* overflow: hidden; */
+}
+.text-area textarea{
+    overflow: hidden;
+    padding: 15px;
+    width: 130%;
+    /* height: 120px; */
+    border: none;
+    outline: none;
+    font-size: 19px;
+    font-family: poppins;
+    resize: none;
+
+}
+.share-btn{
+   text-align: right;
+}
+

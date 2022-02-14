@@ -1,0 +1,10 @@
+.share{
+    width: 120px;
+    padding: 5px;
+    background-color: #4442a1;
+    color: #fff;
+    border: none;
+    font-family: sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
