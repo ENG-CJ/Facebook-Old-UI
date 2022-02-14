@@ -9,3 +9,6 @@ only source code install the dependencies
 ```javascript
 npm install create-react-app
 ```
+
+## Thumbnails
+
